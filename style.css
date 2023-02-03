@@ -73,7 +73,7 @@ a {
   color: white;
 }
 
-button {
+.button {
   color: white;
   background-color: black;
   border: white solid 1px;
@@ -82,4 +82,58 @@ button {
   padding: 1%;
   width: 100%;
   border-radius: 10%;
+}
+.product_info {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  justify-content: center;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.description {
+  color: white;
+  border: white solid 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  padding: 5px;
+}
+
+.description h3 {
+  font-size: 2rem;
+}
+
+.description p {
+  font-size: 1.2rem;
+}
+
+.Køb {
+  background-color: black;
+  border: white solid 1px;
+  color: white;
+  width: 60%;
+  margin-inline: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.product_pic {
+  width: 40%;
+}
+
+.soldout {
+  opacity: 80%;
+}
+
+.back {
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tilbud {
+  text-decoration: line-through;
 }
