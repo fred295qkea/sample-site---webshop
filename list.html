@@ -14,46 +14,51 @@
         <h1>Category</h1>
         <a href="category.html" class="back">Tilbage</a>
         <div class="produkt_container">
-            <div class="produkt">
-                <img src="img/1163.webp" alt="" class="pic">
-                <div class="indhold">
-                    <div class="tekst">
-                        <h2>Nike</h2>
-                        <h3>895,-</h3>
-                    </div>
-                    <div>
-                        <a href="product.html"> <button class="button">Læs mere</button></a>
+
+            <template id="productTemplate">
+                <div class="produkt">
+                    <img src="img/1163.webp" alt="" class="pic">
+                    <div class="indhold">
+                        <div class="tekst">
+                            <h2>Nike</h2>
+                            <h3>895,-</h3>
+                            <h4>tilbudspris</h4>
+                        </div>
+                        <div>
+                            <a href="product.html"> <button class="button">Læs mere</button></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="produkt">
+            </template>
+            <!-- <div class="produkt tilbud">
                 <img src="img/1528.webp" alt="" class="pic">
                 <div class="indhold">
                     <div class="tekst">
                         <h2>Puma</h2>
-                        <h3 class="tilbud">3999,-</h3>
-                        <h3>2000,-</h3>
+                        <h3>3999,-</h3>
+                        <h4>2000,-</h4>
                     </div>
                     <div>
                         <a href="product.html"> <button class="button">Læs mere</button></a>
                     </div>
                 </div>
-            </div>
-            <div class="produkt">
-                <img src="img/1529.webp" alt="" class="pic soldout">
-                <div class="indhold">
-                    <div class="tekst">
-                        <h2>Puma</h2>
-                        <h3>Udsolgt</h3>
-                    </div>
-                    <div>
-                        <a href="product.html"> <button class="button">Læs mere</button></a>
-                    </div>
+        </div>
+        <div class="produkt soldout">
+            <img src="img/1529.webp" alt="" class="pic">
+            <div class="indhold">
+                <div class="tekst">
+                    <h2>Puma</h2>
+                    <h3>Udsolgt</h3>
+                </div>
+                <div>
+                    <a href="product.html"> <button class="button">Læs mere</button></a>
                 </div>
             </div>
+        </div>-->
         </div>
     </main>
     <script src="script.js"></script>
+    <script src="js/productlist.js"></script>
 </body>
 
 </html>
